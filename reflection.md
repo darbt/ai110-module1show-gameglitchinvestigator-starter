@@ -26,7 +26,7 @@ Document at least 3 bugs you found. Add rows as needed.
 |-------|-------------------|-----------------|------------------------|
 |52     | "Go Lower"        | "Go Higher"     | None                   |
 |100    | "Go Lower"        | "Go Higher"     | None                   |
-|15     | "Go Higher"       | "Go Lower       | None                   |
+|Easy   | Range: 1-20       | Range: 1-100    | None                   |
 
 ---
 
@@ -56,11 +56,14 @@ Claude
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
----
+---Stremlit reruns basically means that everytime a user interacts with something, the whole script will re-execute. So since the whole script rerun with every interaction, we use session states so that the program remembers all the information that it needs. We would normally use lpcal variables but because of the reruns, that wouldn't be possible since the rerun would wipe them all out. Session state will remember all the variables needed for that specific session. 
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  I definetly want to get into the habit of utilizing test cases. I don't normally do test, I just run the program to see if it works. Utilizing test cases would be a great way to avoid breaks and bigger issues because I would be testing every individual piece before fully merging it with the code.
 - What is one thing you would do differently next time you work with AI on a coding task?
+  Have the AI focus more on structure then just giving me the code. I feel like really understanding the structure helps you find bugs more efficiently and helps with future changes then just having the AI just spit out code and not understand what causes breaks and bugs. 
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+This project showed me that there is actually a lot more that I can do with AI when it comes to coding. Not only will the AI help me better organize my code and commits, but it can help break down the structure that I would need for my code to help me when programming. 
